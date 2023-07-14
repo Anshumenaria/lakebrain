@@ -1,0 +1,23 @@
+.Instructed{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.toutors
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.populartutors{
+    font-size: 20PX;
+}
+.InstructedCources_card
+{
+    background-color: rgb(99, 44, 44);
+}
+.InstructedCources_btn
+{
+    margin-left: 30%;
+}

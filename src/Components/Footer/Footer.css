@@ -1,0 +1,16 @@
+.Footer
+{
+    display: flex;
+
+}
+.socialMedia
+{
+  
+    width: 100%;
+    float: right;
+    
+    
+}
+.socialMedia ul{
+    float: right;
+}

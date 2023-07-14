@@ -1,0 +1,136 @@
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(238, 222, 222, 0.5); */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .text-overlay input {
+    width: 60%;
+    border-radius: 20px;
+    border: 1px;
+    
+    
+  }
+
+  h3
+  {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .button1
+  {
+    position: absolute;
+    width: 10%;
+    height: 9%;
+    border: 1px;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: green;
+    color: #fff;
+  }
+ .Academy
+ {
+    display: flex;
+    justify-content: space-evenly;
+    color: green;
+    font-size: 20px;
+    
+ }
+ @media only screen and (max-width:600px) {
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    height: 30vh;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(238, 222, 222, 0.5); */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .img_text
+  {
+    top: 60%;
+    font-size:17px;
+    width: 80%;
+    
+  }
+  .text-overlay input {
+    width: 60%;
+    border-radius: 20px;
+    border: 1px;
+    
+    
+  }
+
+  h3
+  {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .button1
+  {
+    position: absolute;
+    width: 30%;
+    height: 15%;
+    border: 1px;
+    top: 85%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: green;
+    color: #fff;
+  }
+  .Academy
+ {
+    display: flex;
+    justify-content: space-evenly;
+    color: green;
+    font-size: 15px;
+  
+    
+ }
+ }

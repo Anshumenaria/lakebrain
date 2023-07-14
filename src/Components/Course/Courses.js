@@ -1,0 +1,12 @@
+import React from 'react'
+import Header from '../Header/Header';
+
+export default function Courses() {
+  return (
+    <>
+    <Header/>
+
+    <div>Courses</div>
+    </>
+  )
+}
